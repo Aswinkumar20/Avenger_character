@@ -1,0 +1,89 @@
+body {
+  background-image: url("https://wallpapercave.com/wp/wp6608370.jpg");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: black;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+}
+.navbar li {
+  margin: 05px;
+  display: inline-block;
+  padding: 10px;
+}
+
+.navbar li a{
+  color: lightgrey;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.navbar li a:hover {
+  color:firebrick;
+  text-decoration: underline;
+}
+h1 , h2{
+  color: indianred;
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+  font-size: 2rem;
+}
+
+.content1 ul,.content1 p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+.content1 p {
+  padding-right: 400px;
+}
+.content {
+  margin-top: 35%;
+  padding: 15px;
+  background-color: cornsilk;
+  color: black;
+}
+
+.content1 p {
+  justify-items: center;
+}
+
+.text {
+  font-size: 20px;
+  font-family: "Crimson Pro", serif;
+}
+
+.photo1 {
+  margin: 0;
+  height: 50%;
+  width: 100%
+}
+
+
+.footer {
+  text-align: center;
+  padding: 40px;
+  background-color: #888888;
+  color: firebrick;
+}
+
+.footer a {
+  font-family: sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 08px;
+  color: floralwhite;
+}
+
+.footer a:hover {
+  border: 1px solid white;
+  color: red;
+}
